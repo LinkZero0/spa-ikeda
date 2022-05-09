@@ -11,7 +11,7 @@ build:
   stage: build
   script:
     - echo "$ENV_PRODUCTION" > .env
-    - docker stop sparobotorchestrator || true && docker rm sparobotorchestrator || true
+    - docker stop spaikeda || true && docker rm spaikeda || true
     - docker login -u antoniocometa --password 2f9d350d-8c1e-4490-b895-f6cca4163a01
     - docker-compose build
 
