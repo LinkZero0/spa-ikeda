@@ -29,7 +29,7 @@
 												<v-row class="flex-column">
 													<v-col cols="12" class="d-flex align-center my-8">
 														<v-divider></v-divider>
-														<span class="px-5 text primary--text">
+														<span class="px-5 text white--text">
 															#TeamIkeda
 														</span>
 														<v-divider></v-divider>
@@ -64,7 +64,7 @@
 															>
 																Login</v-btn
 															>
-															<v-btn large text class="text primary--text"
+															<v-btn large text class="text white--text"
 																>Esqueci a senha</v-btn
 															>
 														</v-col>
@@ -197,3 +197,9 @@
 </script>
 
 <style src="./Login.scss" lang="scss" />
+<style scoped>
+.v-application >>> .primary--text {
+  color: #e6e7ea !important;
+  caret-color: #e6e7ea !important;
+}
+</style>

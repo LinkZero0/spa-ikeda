@@ -1,27 +1,5 @@
 @import '../../styles/app';
-.v-application .primary--text {
-  color: #01040f !important;
-  caret-color: #01040f !important;
-}
-.v-application .align-center {
-  justify-content: none !important;
-}
 
-.v-textarea textarea[readonly="readonly"] {
-  background-color: #01040f;
-  color: gray;
-}
-
-.theme--light.v-input input, .theme--light.v-input textarea {
-  color: rgb(26 25 25 / 87%);
-}
-.theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active), .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-icon, .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-btn, .theme--light.v-tabs > .v-tabs-bar .v-tab--disabled {
-  color: rgb(113 108 108 / 54%);
-}
-
-.theme--light.v-input input, .theme--light.v-input textarea {
-  color: #01040f;
-}
 .employee-list {
   .v-card__title {
     .v-input {

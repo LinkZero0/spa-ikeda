@@ -2,10 +2,10 @@
 body {
   background-color: #0c0d10 !important
 }
-.v-application .primary--text {
-  color: #e6e7ea !important;
-  caret-color: #e6e7ea !important;
-}
+// .v-application .primary--text {
+//   color: #e6e7ea !important;
+//   caret-color: #e6e7ea !important;
+// }
 .v-application .align-center {
   justify-content: none !important;
 }
@@ -15,7 +15,7 @@ body {
   color: gray;
 }
 .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active), .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-icon, .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-btn, .theme--light.v-tabs > .v-tabs-bar .v-tab--disabled {
-  color: rgb(113 108 108 / 54%);
+    color: rgb(113 108 108 / 54%);
 }
 
 .theme--light.v-input input, .theme--light.v-input textarea {
