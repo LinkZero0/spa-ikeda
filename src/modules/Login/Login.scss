@@ -1,0 +1,109 @@
+@import "../../styles/app";
+body {
+  background-color: #0c0d10 !important
+}
+.v-application .primary--text {
+  color: #e6e7ea !important;
+  caret-color: #e6e7ea !important;
+}
+.v-application .align-center {
+  justify-content: none !important;
+}
+
+.v-textarea textarea[readonly="readonly"] {
+  background-color: #f0f0f0;
+  color: gray;
+}
+.theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active), .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-icon, .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) > .v-btn, .theme--light.v-tabs > .v-tabs-bar .v-tab--disabled {
+  color: rgb(113 108 108 / 54%);
+}
+
+.theme--light.v-input input, .theme--light.v-input textarea {
+  color: rgb(254 254 254 / 87%);
+}
+
+.theme--light.v-text-field--filled > .v-input__control > .v-input__slot {
+  background: rgb(255 255 255 / 6%);
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  color: #e6e7ea;
+  background-color: rgb(255 255 255 / 6%);
+}
+
+.custom-placeholer-color input::placeholder {
+  color: #e6e7ea!important;
+  opacity: 1;
+}
+
+.custom-label-color .v-label {
+  color: #e6e7ea;
+  opacity: 1;
+}
+.abc {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 0;
+
+  .main-part {
+    width: 100%;
+    height: 100vh;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 84px;
+        color: white;
+        font-weight: 500;
+      }
+      .v-image {
+        margin-bottom: 32px;
+      }
+    }
+
+  }
+  .login-part {
+    width: 100%;
+    height: 100vh;
+    background-color: #0c0d10;
+    overflow-y: auto;
+    .login-wrapper {
+      width: 320px;
+      height: auto;
+      .login-slogan {
+        color: #ffffff;
+      }
+      .v-btn.google {
+        box-shadow: $card-shadow!important;
+      }
+      .v-tabs {
+        .v-tab {
+          font-size: 18px;
+        }
+        .v-item-group {
+          background-color: #0c0d10;
+        }
+      }
+
+    }
+    .v-footer {
+      position: absolute;
+      bottom: 0;
+      background-color: #0c0d10;
+    }
+  }
+}

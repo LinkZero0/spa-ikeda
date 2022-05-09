@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  sparobotorchestrator:
+    container_name: sparobotorchestrator
+    image: sparobotorchestrator
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    ports:
+      - 8083:8083
