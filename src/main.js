@@ -10,6 +10,7 @@ import vueVimeoPlayer from 'vue-vimeo-player'
 import "sweetalert2/dist/sweetalert2.min.css";
 import "@/assets/styles/sweetalert2.scss";
 import "vue-toastification/dist/index.css";
+import './registerServiceWorker'
 
 Vue.use(Toast);
 Vue.use(VueSweetalert2);
