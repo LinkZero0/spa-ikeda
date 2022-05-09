@@ -20,8 +20,8 @@
 
 								<v-tabs class="text--white" grow>
 									<v-tabs-slider color="white"></v-tabs-slider>
-									<v-tab :href="`#tab-login`"> LOGIN </v-tab>
-									<v-tab :href="`#tab-newUser`"> Novo aluno </v-tab>
+									<v-tab class="myText" :href="`#tab-login`"> LOGIN </v-tab>
+									<v-tab class="myText" :href="`#tab-newUser`"> Novo aluno </v-tab>
 
 									<v-tab-item :value="'tab-login'">
 										<v-form>
@@ -201,5 +201,8 @@
 .v-application >>> .primary--text {
   color: #e6e7ea !important;
   caret-color: #e6e7ea !important;
+}
+.myText{
+  color: white !important;
 }
 </style>
