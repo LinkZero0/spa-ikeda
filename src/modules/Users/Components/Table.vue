@@ -65,11 +65,7 @@
 										</v-btn>
 									</div>
 								</div>
-								<v-text-field
-									v-model="search"
-									class="ml-3"
-									prepend-icon="mdi-magnify"
-								></v-text-field>
+								
 							</template>
 
 							<template v-slot:default>
@@ -214,11 +210,11 @@
 					});
 			},
 
-			async showDeleteScheduleDialog(selectedUser) {
+			async showDeleteDialog(selectedUser) {
 				return await this.$swal
 					.fire({
-						title: "Remover o agendamento do robô?",
-						text: `Isso remove o agendamento do robô ${selectedUser.name}`,
+						title: "Remover o aluno?",
+						text: `Isso remove o ${selectedUser.name}`,
 						icon: "question",
 						showCancelButton: true,
 						cancelButtonText: "Cancelar",
